@@ -1,0 +1,38 @@
+[
+    {
+        "command": "/home/shark/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -x assembler-with-cpp -DPLATFORMIO=60118 -DSTM32F1 -DSTM32F103xB -DF_CPU=72000000L -Iinclude -I/home/shark/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include -I/home/shark/.platformio/packages/framework-cmsis-stm32f1/Include -c -o .pio/build/bluepill_f103c8/FrameworkCMSIS/gcc/startup_stm32f103xb.o /home/shark/.platformio/packages/framework-cmsis-stm32f1/Source/Templates/gcc/startup_stm32f103xb.S",
+        "directory": "/home/shark/Documentos/Programming/lang/C/Embedded/Course/Advanced/04_USART_Module/01_usart_dma_driver",
+        "file": "/home/shark/.platformio/packages/framework-cmsis-stm32f1/Source/Templates/gcc/startup_stm32f103xb.S",
+        "output": ".pio/build/bluepill_f103c8/FrameworkCMSIS/gcc/startup_stm32f103xb.o"
+    },
+    {
+        "command": "/home/shark/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc -o .pio/build/bluepill_f103c8/FrameworkCMSIS/system_stm32f1xx.o -c -Og -ggdb -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60118 -DSTM32F1 -DSTM32F103xB -DF_CPU=72000000L -Iinclude -I/home/shark/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include -I/home/shark/.platformio/packages/framework-cmsis-stm32f1/Include /home/shark/.platformio/packages/framework-cmsis-stm32f1/Source/Templates/system_stm32f1xx.c",
+        "directory": "/home/shark/Documentos/Programming/lang/C/Embedded/Course/Advanced/04_USART_Module/01_usart_dma_driver",
+        "file": "/home/shark/.platformio/packages/framework-cmsis-stm32f1/Source/Templates/system_stm32f1xx.c",
+        "output": ".pio/build/bluepill_f103c8/FrameworkCMSIS/system_stm32f1xx.o"
+    },
+    {
+        "command": "/home/shark/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc -o .pio/build/bluepill_f103c8/src/adc_dma.o -c -Og -ggdb -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60118 -DSTM32F1 -DSTM32F103xB -DF_CPU=72000000L -Isrc -Iinclude -I/home/shark/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include -I/home/shark/.platformio/packages/framework-cmsis-stm32f1/Include src/adc_dma.c",
+        "directory": "/home/shark/Documentos/Programming/lang/C/Embedded/Course/Advanced/04_USART_Module/01_usart_dma_driver",
+        "file": "src/adc_dma.c",
+        "output": ".pio/build/bluepill_f103c8/src/adc_dma.o"
+    },
+    {
+        "command": "/home/shark/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc -o .pio/build/bluepill_f103c8/src/dma.o -c -Og -ggdb -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60118 -DSTM32F1 -DSTM32F103xB -DF_CPU=72000000L -Isrc -Iinclude -I/home/shark/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include -I/home/shark/.platformio/packages/framework-cmsis-stm32f1/Include src/dma.c",
+        "directory": "/home/shark/Documentos/Programming/lang/C/Embedded/Course/Advanced/04_USART_Module/01_usart_dma_driver",
+        "file": "src/dma.c",
+        "output": ".pio/build/bluepill_f103c8/src/dma.o"
+    },
+    {
+        "command": "/home/shark/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc -o .pio/build/bluepill_f103c8/src/main.o -c -Og -ggdb -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60118 -DSTM32F1 -DSTM32F103xB -DF_CPU=72000000L -Isrc -Iinclude -I/home/shark/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include -I/home/shark/.platformio/packages/framework-cmsis-stm32f1/Include src/main.c",
+        "directory": "/home/shark/Documentos/Programming/lang/C/Embedded/Course/Advanced/04_USART_Module/01_usart_dma_driver",
+        "file": "src/main.c",
+        "output": ".pio/build/bluepill_f103c8/src/main.o"
+    },
+    {
+        "command": "/home/shark/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc -o .pio/build/bluepill_f103c8/src/rcc.o -c -Og -ggdb -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60118 -DSTM32F1 -DSTM32F103xB -DF_CPU=72000000L -Isrc -Iinclude -I/home/shark/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include -I/home/shark/.platformio/packages/framework-cmsis-stm32f1/Include src/rcc.c",
+        "directory": "/home/shark/Documentos/Programming/lang/C/Embedded/Course/Advanced/04_USART_Module/01_usart_dma_driver",
+        "file": "src/rcc.c",
+        "output": ".pio/build/bluepill_f103c8/src/rcc.o"
+    }
+]
